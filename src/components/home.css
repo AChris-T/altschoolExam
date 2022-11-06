@@ -41,23 +41,23 @@
     flex-direction:row;
     column-gap: 20px;
 }
-button{
+.smallbtn{
     width: 200px;
     height: 40px;
     cursor: pointer;
     color: white;
     margin-top: 40px;
-    
+    font-size: 20px;
 }
-button:nth-child(1){
+.smallbtn:nth-child(1){
     background-color: blue;
     
 }
-button:nth-child(2){
+.smallbtn:nth-child(2){
     background-color: green;
     
 }
-button:nth-child(3){
+.smallbtn:nth-child(3){
     background-color: red;
     
 }

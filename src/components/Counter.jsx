@@ -22,9 +22,9 @@ function Counter() {
       <h2 className="hometxt">Count:</h2>
       <h2 className="subCount">{count}</h2>
       <div className="btn">
-        <button onClick={() => dispatch('increament')} >Increament</button>
-        <button onClick={() => dispatch('decreament')}>Decrement</button>
-        <button onClick={() => dispatch('reset')}>Reset</button>
+        <button  className="smallbtn" onClick={() => dispatch('increament')} >Increament</button>
+        <button className="smallbtn" onClick={() => dispatch('decreament')}>Decreament</button>
+        <button className="smallbtn" onClick={() => dispatch('reset')}>Reset</button>
       </div>
     </div>
   )
