@@ -61,3 +61,11 @@
     background-color: red;
     
 }
+
+@media screen and (max-width: 678px){
+    .btn{
+        display: flex;
+        flex-direction:column;
+        row-gap: 4gipx;
+    }
+}
